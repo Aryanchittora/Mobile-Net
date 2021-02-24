@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: grey;
+}
+.head {
+    background-color: white;
+    color: red;   
+}
+.head img {
+    width: 100px;
+}
+.cam {
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+.cam label {
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px white;
+}
+#camera , #result {
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+}
+.cam button {
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 18px white;
+}
+.footer {
+    margin-bottom: 50px;
+}
+.footer h4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+.footer img {
+    width: 70px;
+}
+.copyright {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 3;
+}
