@@ -13,7 +13,7 @@ Webcam.attach(cam);
 
 function take_snapshot() {
     Webcam.snap(function(data_uri) {
-        document.getElementById("result").innerHTML = '<img id="image_taken" src="'+data_uri+'" > ';
+        document.getElementById("result").innerHTML = '<img id="image_taken" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMafT437EJdkzRaVclRNqibR3I1SamSxSEGw&usqp=CAU" > ';
     });
 }
 
